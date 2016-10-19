@@ -86,6 +86,7 @@ for index in list_order:
             break
     # map keypress to meaningful response type
     if KEY == []:
+        KEY = "None"
         RESP = "None"
     elif KEY == ["right"]:
         RESP = "congruent"
@@ -108,7 +109,7 @@ for index in list_order:
                                        KEY,
                                        RESP,
                                        ACC,
-                                       "%.3f" %RT)))) # round up the RT (in seconds) to the third decimal place
+                                       "%.3f" %RT)))) # round the RT (in seconds) to the third decimal place
 
 ### SAVE DATA ###
 np.savetxt(parent_dir + "data/MyData.txt",
