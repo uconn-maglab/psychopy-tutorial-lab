@@ -1,0 +1,5 @@
+TRIAL COND V_STIM A_STIM
+1 congruent happy laugh
+2 congruent sad cry
+3 incongruent happy cry
+4 incongruent sad laugh
